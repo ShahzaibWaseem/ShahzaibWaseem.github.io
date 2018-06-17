@@ -107,17 +107,17 @@ author:
   email            : "shahzaib.waseem96@gmail.com"
   uri              :
   home             : "https://shahzaibwaseem.github.io/"
-  bitbucket        : "https://bitbucket.org/shahzaib_waseem/"
+  bitbucket        : "shahzaib_waseem"
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://web.facebook.com/FCB.ShahzaibWaseem"
+  facebook         : "FCB.ShahzaibWaseem"
   foursquare       :
-  github           : "https://github.com/ShahzaibWaseem/"
+  github           : "ShahzaibWaseem"
   gitlab           :
-  google_plus      : "https://plus.google.com/+ShahzaibWaseem"
+  google_plus      : "+ShahzaibWaseem"
   keybase          :
-  instagram        : "https://www.instagram.com/shahzaibwas/"
+  instagram        : "shahzaibwas"
   lastfm           :
   linkedin         : "shahzaib-waseem-51b919129"
   # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
@@ -126,7 +126,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "https://twitter.com/shahzaibWas"
+  twitter          : "shahzaibWas"
   vine             :
   weibo            :
   xing             :
