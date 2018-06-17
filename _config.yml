@@ -106,26 +106,27 @@ author:
   location         : "Rawalpindi"
   email            : "shahzaib.waseem96@gmail.com"
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
+  home             : "https://shahzaibwaseem.github.io/"
+  bitbucket        : "https://bitbucket.org/shahzaib_waseem/"
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://web.facebook.com/FCB.ShahzaibWaseem"
   foursquare       :
-  github           :
+  github           : "https://github.com/ShahzaibWaseem/"
   gitlab           :
-  google_plus      :
+  google_plus      : "https://plus.google.com/+ShahzaibWaseem"
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/shahzaibwas/"
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "shahzaib-waseem-51b919129"
+  # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/shahzaibWas"
   vine             :
   weibo            :
   xing             :
