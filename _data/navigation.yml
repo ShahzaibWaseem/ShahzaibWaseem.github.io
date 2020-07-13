@@ -4,10 +4,6 @@ main:
     url: https://shahzaibwaseem.github.io/projects/
   - title: "About"
     url: https://shahzaibwaseem.github.io/about/
-  - title: "Categories"
-    url: https://shahzaibwaseem.github.io/categories/
-  - title: "Tags"
-    url: https://shahzaibwaseem.github.io/tags/
   - title: "CV"
     url: https://shahzaibwaseem.github.io/cv.pdf
   # - title: "Sample Collections"
