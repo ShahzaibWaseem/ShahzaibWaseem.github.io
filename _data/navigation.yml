@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Projects"
-    url: https://shahzaibwaseem.github.io/Projects
+    url: https://shahzaibwaseem.github.io/projects/
   - title: "About"
     url: https://shahzaibwaseem.github.io/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "CV"
+    url: https://shahzaibwaseem.github.io/cv.pdf
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Shahzaib"
 title_separator          : "-"
 name                     : "Muhammad Shahzaib Waseem"
-description              : "An amazing website."
+description              : "My Personal Blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,12 +102,12 @@ analytics:
 author:
   name             : "Shahzaib Waseem"
   avatar           : "/about/Shahzaib.jpg"
-  bio              : "Computer Science Graduate from SEECS-NUST. Passionate Coder."
+  bio              : "Computer Science Graduate from SEECS-NUST. DeepLearning Enthusiast."
   location         : "Rawalpindi"
   email            : "shahzaib.waseem96@gmail.com"
   uri              :
   home             : "https://shahzaibwaseem.github.io/"
-  bitbucket        : "shahzaib_waseem"
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
