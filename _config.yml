@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Shahzaib Waseem"
-  avatar           : "/about/Shahzaib.jpg"
+  avatar           : "/assets/images/Shahzaib.jpg"
   bio              : "Computer Science Graduate from SEECS-NUST. DeepLearning Enthusiast."
   location         : "Rawalpindi"
   email            : "shahzaib.waseem96@gmail.com"
