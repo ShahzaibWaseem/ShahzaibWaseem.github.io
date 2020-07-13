@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-excerpt: "This page contains my detailed Bio"
+excerpt: "This page contains my detailed Bio."
 layout: single
 author_profile: true
 ---
