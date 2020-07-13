@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-author_profile: true
+layout: single
 ---
 
 I am a computer science senior at SEECS-NUST.
