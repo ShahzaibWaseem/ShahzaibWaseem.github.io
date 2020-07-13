@@ -1,10 +1,8 @@
 ---
-layout: post
-title: "Sample Post"
-date: 2012-05-22
-excerpt: "Just to check if things work"
-tags: [sample post, test]
-comments: true
+title:  "Sample Post"
+date:   2020-05-02
+categories: update
+tags: test
 ---
 
 # Introduction
