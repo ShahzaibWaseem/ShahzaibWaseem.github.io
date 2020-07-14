@@ -257,6 +257,11 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -271,6 +276,15 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 category_archive:
   type: liquid
