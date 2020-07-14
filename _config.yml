@@ -259,7 +259,7 @@ compress_html:
 
 # Collections
 collections:
-  recipes:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -276,10 +276,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _recipes
+  # _projects
   - scope:
       path: ""
-      type: recipes
+      type: projects
     values:
       layout: single
       author_profile: true
