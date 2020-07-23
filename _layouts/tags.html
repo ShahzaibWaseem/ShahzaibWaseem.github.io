@@ -43,7 +43,7 @@ layout: archive
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
-{% for tag in site.projects.tags %}
+{% for tag in site.projects.tags | tagged %}
   {% if tag[1].size > tags_max %}
     {% assign tags_max = tag[1].size %}
   {% endif %}
@@ -51,7 +51,7 @@ layout: archive
 
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
-    {% for tag in site.projects.tags %}
+    {% for tag in site.projects.tags | tagged %}
       {% if tag[1].size == i %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
@@ -63,7 +63,7 @@ layout: archive
   {% endfor %}
 </ul>
 {% for i in (1..tags_max) reversed %}
-  {% for tag in site.projects.tags %}
+  {% for tag in site.projects.tags | tagged %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
