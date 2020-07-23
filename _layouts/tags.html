@@ -39,25 +39,23 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
-<!-- 
+
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
-{% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
-{% for tag in tags %}
-  <p>{{ site.tags }} - {{ tag }}</p>
-  {% if site.projects.tags[tag][1].size > tags_max %}
-    {% assign tags_max = site.projects.tags[tag][1].size %}
+{% for tag in site.projects %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
   {% endif %}
 {% endfor %}
 
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
-    {% for tag in tags %}
-      {% if site.projects.tags[tag][1].size == i %}
+    {% for tag in site.projects %}
+      {% if tag[1].size == i %}
         <li>
-          <a href="#{{ site.projects.tags[tag][0] | slugify }}">
-            <strong>{{ site.projects.tags[tag][0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <a href="#{{ tag[0] | slugify }}">
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
       {% endif %}
@@ -65,12 +63,12 @@ layout: archive
   {% endfor %}
 </ul>
 {% for i in (1..tags_max) reversed %}
-  {% for tag in tags %}
-    {% if site.projects.tags[tag][1].size == i %}
-      <section id="{{ site.projects.tags[tag][0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ site.projects.tags[tag][0] }}</h2>
+  {% for tag in site.projects %}
+    {% if tag[1].size == i %}
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in site.projects %}
+          {% for post in tag.last %}
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
         </div>
@@ -79,7 +77,7 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
- -->
+
 <!-- 
 <ul class="taxonomy__index">
   {% for tag in tags %}
