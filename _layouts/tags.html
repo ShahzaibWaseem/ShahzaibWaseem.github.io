@@ -45,11 +45,11 @@ layout: archive
     <h6 class="post-meta">
       collection {{ collection[1].label }}
     </h6>
+    {% for doc in collection.docs %}
     <h2>
-      {% for doc in collection.docs %}
       {{ doc }}
-      {%%}
     </h2>
+    {% endfor %}
   </li>
 {% endfor %}
 
