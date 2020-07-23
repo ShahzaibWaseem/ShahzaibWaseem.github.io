@@ -40,11 +40,39 @@ layout: archive
   {% endfor %}
 {% endfor %}
 
+{% assign project_posts = site.projects | tagged %}
+
+{% assign tags =  project_posts | map: 'tags' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+
+{% for currentTag in tags %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    {{ previousTag }} ({{ counter }})
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+    {{ currentTag }} ({{ counter }})
+  {% endif %}
+
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
-{% assign project_posts = site.projects | tagged %}
-{% for tag in project_posts.tags %}
+
+
+{% for tag in project_posts %}
   {% if tag[1].size > tags_max %}
     {% assign tags_max = tag[1].size %}
   {% endif %}
@@ -52,7 +80,7 @@ layout: archive
 
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
-    {% for tag in project_posts.tags %}
+    {% for tag in project_posts %}
       {% if tag[1].size == i %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
@@ -64,7 +92,7 @@ layout: archive
   {% endfor %}
 </ul>
 {% for i in (1..tags_max) reversed %}
-  {% for tag in project_posts.tags %}
+  {% for tag in project_posts %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
