@@ -43,9 +43,9 @@ layout: archive
 {% for collection in site.collections %}
   <li>
     <h6 class="post-meta">
-      collection {{ collection[1].label }}
+      collection {{ collection[0] }}
     </h6>
-    {% for doc in collection.docs %}
+    {% for doc in collection[1].docs %}
     <h2>
       {{ doc }}
     </h2>
