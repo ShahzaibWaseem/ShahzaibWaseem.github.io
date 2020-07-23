@@ -1,12 +1,11 @@
 ---
 title: Garduino
 date:   2018-07-20
-taxonomy: project
 tags:
   - C
   - C++
   - Arduino UNO
-  - Garndening
+  - Gardening
   - Real Time Clock (RTC)
   - Soil Moisture Sensor
   - Light Dependent Resistor (LDR) 
