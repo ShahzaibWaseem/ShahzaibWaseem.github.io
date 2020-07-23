@@ -1,11 +1,14 @@
 ---
 title: School Ranking System
 date:   2018-01-09
+categories:
+  - Projects
 tags: 
   - Python
   - JavaScript
   - Flask
   - Database
+  - projects
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
