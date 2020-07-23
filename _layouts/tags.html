@@ -11,8 +11,6 @@ layout: archive
   {% endif %}
 {% endfor %}
 
-{{ site.tags }}
-
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
