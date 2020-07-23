@@ -66,7 +66,6 @@ layout: archive
   <h2 class="archive__subtitle">{{ tag }}</h2>
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {% for post in site.projects %}
-      {{ post }}
       {% include archive-single.html type=page.entries_layout %}
     {% endfor %}
   </div>
