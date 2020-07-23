@@ -44,7 +44,7 @@ layout: archive
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
-{% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% assign tags = site.projects | uniq %}
 {% for tag in tags %}
   {% if tag.size > tags_max %}
     {% assign tags_max = tag.size %}
@@ -65,7 +65,7 @@ layout: archive
 <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ tag }}</h2>
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {% for post in site.projects.tag %}
+    {% for post in site.projects %}
       {% include archive-single.html type=page.entries_layout %}
     {% endfor %}
   </div>
