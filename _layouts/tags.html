@@ -39,22 +39,8 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
-
-{% for collection in site.collections %}
-  <li>
-    <h6 class="post-meta">
-      collection {{ collection[0] }}
-    </h6>
-    {% for doc in collection[1].docs %}
-    <h2>
-      {{ doc }}
-    </h2>
-    {% endfor %}
-  </li>
-{% endfor %}
-
+<!-- 
 <h1>Projects by Tag</h1>
-
 
 {% assign tags_max = 0 %}
 {% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
@@ -93,7 +79,7 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
-
+ -->
 <!-- 
 <ul class="taxonomy__index">
   {% for tag in tags %}
