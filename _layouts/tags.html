@@ -51,6 +51,36 @@ layout: archive
 {% endfor %}
 
 <ul class="taxonomy__index">
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.tags %}
+      {% if tags[tag][1].size == i %}
+        <li>
+          <a href="#{{ tags[tag][0] | slugify }}">
+            <strong>{{ tags[tag][0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+{% for i in (1..tags_max) reversed %}
+  {% for tag in tags %}
+    {% if tags[tag][1].size == i %}
+      <section id="{{ tags[tag][0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tags[tag][0] }}</h2>
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% for post in site.projects %}
+            {% include archive-single.html type=page.entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<!-- 
+<ul class="taxonomy__index">
   {% for tag in tags %}
     <li>
       <a href="#{{ tag | slugify }}">
@@ -70,7 +100,7 @@ layout: archive
   </div>
   <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </section>
-{% endfor %}
+{% endfor %} -->
 
 <!-- {% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
