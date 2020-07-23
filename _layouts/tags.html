@@ -40,72 +40,43 @@ layout: archive
   {% endfor %}
 {% endfor %}
 
-{% assign project_posts = site.projects | tagged %}
-
-{% assign tags =  project_posts | map: 'tags' | join: ','  | split: ',' | sort %}
-{% assign previousTag = "" %}
-{% assign counter = 0 %}
-
-<ul>
-
-{% for currentTag in tags %}
-  {% if previousTag == "" %}
-    {% assign previousTag = currentTag %}
-  {% endif %}
-
-  {% if currentTag == previousTag %}
-    {% assign counter = counter | plus: 1 %}
-  {% else %}
-    <li>{{ previousTag }} ({{ counter }})</li>
-    {% assign counter = 1 %}
-  {% endif %}
-
-  {% if forloop.last %}
-    <li>{{ currentTag }} ({{ counter }})</li>
-  {% endif %}
-
-  {% assign previousTag = currentTag %}
-
-{% endfor %}
-</ul>
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
+{% assign project_posts = site.projects | tagged %}
 
-
-{% for tag in project_posts %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
-{% endfor %}
+{% assign tags =  project_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
 
 <ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in project_posts %}
-      {% if tag[1].size == i %}
-        <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+  {% for tag in tags %}
+    <li>
+      <a href="#{{ tag | slugify }}">
+        <strong>{{ tag }}</strong>
+      </a>
+    </li>
   {% endfor %}
 </ul>
-{% for i in (1..tags_max) reversed %}
-  {% for tag in project_posts %}
-    {% if tag[1].size == i %}
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in tag.last %}
-            {% include archive-single.html type=page.entries_layout %}
-          {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
+
+{% for tag in tags %}
+  <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ tag }}</h2>
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% for post in project_posts %}
+        <div class="{{ include.type | default: "list" }}__item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          <h2 class="archive__item-title" itemprop="headline">
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+          </h2>
+          {% if post.read_time %}
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+          {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+        </article>
+      </div>
+      {% endfor %}
+      </div>
+      <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
 {% endfor %}
 
 <!-- 
