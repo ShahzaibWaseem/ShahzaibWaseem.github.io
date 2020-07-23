@@ -1,9 +1,8 @@
 ---
-layout: collection
+layout: tag
 excerpt: "This page contains a list of all my projects."
 title: "Projects"
-collection: projects
-permalink: /projects/
+permalink: /tags/projects/
 taxonomy: projects
 author_profile: true
 ---
