@@ -5,6 +5,7 @@ tags: Python3 JavaScript SQLite Flask Jinja SQLAlchemy Flask'sLoginManager WTFor
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
 ---
 
 **Languages Used**: Python3, JavaScript, SQLite
