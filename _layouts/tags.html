@@ -65,7 +65,8 @@ layout: archive
 <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ tag }}</h2>
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {% for post in site.project.tag.last %}
+    {% for post in site.projects %}
+      {{ post }}
       {% include archive-single-project.html type=page.entries_layout %}
     {% endfor %}
   </div>
