@@ -2,17 +2,14 @@
 title: School Ranking System
 date:   2018-01-09
 tags: Python3 JavaScript SQLite Flask Jinja SQLAlchemy Flask'sLoginManager WTForms WerkzeugSecurity sha256_encryption HTML CSS Bootstrap
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 **Languages Used**: Python3, JavaScript, SQLite
 
 **Source Code**: [GitHub Link](https://github.com/ShahzaibWaseem/Project-Database)
-
----
-toc: true
-toc_label: "Table of Content"
-toc_icon: "cog"
----
 
 # Goal
 The goal of this project was to guide students in the country by ranking schools and colleges, based on the maximum and minimum percentage marks got by the school's existing students, in the respected student's city. This would be an all-in-one system which tells the student about the fee for a particular school or college, if the school offers a scholarship to its students, what courses does the school offers and would it be possible for the student to get into the school based on his/her grades.
