@@ -24,7 +24,9 @@ layout: archive
     {% endfor %}
   {% endfor %}
 </ul>
-
+{% for i in (1..tags_max) reversed %}
+  <p>{{ i }}</p>
+{% endfor %}
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
