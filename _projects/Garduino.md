@@ -1,6 +1,7 @@
 ---
 title: Garduino
 date:   2018-07-20
+taxonomy: project
 tags:
   - C
   - C++
