@@ -43,9 +43,9 @@ layout: archive
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
-{% assign alldocs = site.projects %}
-{% assign tags = alldocs | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+{% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
 {% for tag in tags %}
+  <p>site.projects.tags[tag]</p>
   {% if site.projects.tags[tag][1].size > tags_max %}
     {% assign tags_max = site.projects.tags[tag][1].size %}
   {% endif %}
