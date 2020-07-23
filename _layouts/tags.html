@@ -41,7 +41,7 @@ layout: archive
   {% endfor %}
 {% endfor %}
 
-<h1>Projects by Tags</h1>
+<h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
 {% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
