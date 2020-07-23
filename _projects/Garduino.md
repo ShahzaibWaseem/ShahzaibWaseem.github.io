@@ -3,12 +3,7 @@ title: Garduino
 date:   2018-07-20
 tags:
   - C
-  - C++
-  - Arduino UNO
-  - Gardening
-  - Real Time Clock (RTC)
-  - Soil Moisture Sensor
-  - Light Dependent Resistor (LDR) 
+  - Microcontroller
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
