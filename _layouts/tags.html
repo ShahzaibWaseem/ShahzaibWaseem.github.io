@@ -46,18 +46,18 @@ layout: archive
 {% assign alldocs = site.projects %}
 {% assign tags = alldocs | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
 {% for tag in tags %}
-  {% if site.tags[tag][1].size > tags_max %}
-    {% assign tags_max = site.tags[tag][1].size %}
+  {% if site.projects.tags[tag][1].size > tags_max %}
+    {% assign tags_max = site.projects.tags[tag][1].size %}
   {% endif %}
 {% endfor %}
 
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
     {% for tag in tags %}
-      {% if site.tags[tag][1].size == i %}
+      {% if site.projects.tags[tag][1].size == i %}
         <li>
-          <a href="#{{ site.tags[tag][0] | slugify }}">
-            <strong>{{ site.tags[tag][0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          <a href="#{{ site.projects.tags[tag][0] | slugify }}">
+            <strong>{{ site.projects.tags[tag][0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
       {% endif %}
@@ -66,9 +66,9 @@ layout: archive
 </ul>
 {% for i in (1..tags_max) reversed %}
   {% for tag in tags %}
-    {% if site.tags[tag][1].size == i %}
-      <section id="{{ site.tags[tag][0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ site.tags[tag][0] }}</h2>
+    {% if site.projects.tags[tag][1].size == i %}
+      <section id="{{ site.projects.tags[tag][0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ site.projects.tags[tag][0] }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in site.projects %}
             {% include archive-single.html type=page.entries_layout %}
