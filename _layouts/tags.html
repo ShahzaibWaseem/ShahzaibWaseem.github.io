@@ -5,15 +5,19 @@ layout: archive
 {{ content }}
 
 {% assign tags_max = 0 %}
-{% for tag in site.tags | tags %}
+{% for tag in site.tags %}
   {% if tag[1].size > tags_max %}
     {% assign tags_max = tag[1].size %}
   {% endif %}
 {% endfor %}
+{% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+{% puts site.tags %}
+{% puts tags %}
 
 <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags | tags %}
+    {% for tag in site.tags %}
       {% if tag[1].size == i %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
@@ -26,7 +30,7 @@ layout: archive
 </ul>
 
 {% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags | tags %}
+  {% for tag in site.tags %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
@@ -41,7 +45,7 @@ layout: archive
   {% endfor %}
 {% endfor %}
 
-<h1>Projects by Tag</h1>
+<!-- <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
 {% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
@@ -71,7 +75,7 @@ layout: archive
   </div>
   <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </section>
-{% endfor %}
+{% endfor %} -->
 
 <!-- {% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
