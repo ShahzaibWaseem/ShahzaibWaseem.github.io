@@ -73,46 +73,10 @@ layout: archive
           {% endif %}
           {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
         </article>
+        </div>
         {% endif %}
-      </div>
       {% endfor %}
       </div>
       <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
-
-<!-- 
-<ul class="taxonomy__index">
-  {% for tag in tags %}
-    <li>
-      <a href="#{{ tag | slugify }}">
-        <strong>{{ tag }}</strong> <span class="taxonomy__count">{{ i }}</span>
-      </a>
-    </li>
-    {% endfor %}
-</ul>
-
-{% for tag in tags %}
-<section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
-  <h2 class="archive__subtitle">{{ tag }}</h2>
-  <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {% for post in site.projects %}
-      {% include archive-single.html type=page.entries_layout %}
-    {% endfor %}
-  </div>
-  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
-{% endfor %} -->
-
-<!-- {% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
-{% for tag in tags %}
-  <h3>{{ tag }}</h3>
-  <ul>
-  {% for project in site.projects %}
-    {% if project.tags contains tag %}
-    <li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-{% endfor %}
- -->
