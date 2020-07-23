@@ -1,7 +1,7 @@
 ---
 title: School Ranking System
 date:   2018-01-09
-tags: Python3, JavaScript, SQLite, Flask, Jinja, SQL Alchemy, Flask'sLoginManager, WTForms, WerkzeugSecurity, sha256_encryption, HTML, CSS, Bootstrap
+tags: Python3 JavaScript SQLite Flask Jinja SQLAlchemy Flask'sLoginManager WTForms WerkzeugSecurity sha256_encryption HTML CSS Bootstrap
 ---
 
 **Language Used**: Python3, JavaScript, SQLite
