@@ -42,6 +42,8 @@ layout: archive
 
 <h1>Projects by Tag</h1>
 
+  <p>{{ site.collections }}</p>
+
 {% assign tags_max = 0 %}
 {% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
 {% for tag in tags %}
