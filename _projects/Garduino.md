@@ -1,7 +1,14 @@
 ---
 title: School Ranking System
 date:   2018-07-20
-tags: C C++ "Arduino UNO" Garndening "Real Time Clock (RTC)" "Soil Moisture Sensor" "Light Dependent Resistor (LDR)" 
+tags:
+	- C
+	- C++
+	- Arduino UNO
+	- Garndening
+	- Real Time Clock (RTC)
+	- Soil Moisture Sensor
+	- Light Dependent Resistor (LDR) 
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
