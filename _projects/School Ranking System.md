@@ -4,17 +4,8 @@ date:   2018-01-09
 tags: 
   - Python3
   - JavaScript
-  - SQLite
   - Flask
-  - Jinja
-  - SQL Alchemy
-  - Flask's Login Manager
-  - WT Forms
-  - Werkzeug Security
-  - sha256 encryption
-  - HTML
-  - CSS
-  - Bootstrap
+  - Database
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
