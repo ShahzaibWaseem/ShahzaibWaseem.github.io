@@ -3,18 +3,18 @@ layout: archive
 ---
 
 {{ content }}
-{% assign tags =  site.note | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+{% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
   <h3>{{ tag }}</h3>
   <ul>
-  {% for note in site.note %}
-    {% if note.tags contains tag %}
-    <li><a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></li>
+  {% for project in site.projects %}
+    {% if project.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></li>
     {% endif %}
   {% endfor %}
   </ul>
 {% endfor %}
-
 <!-- 
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
