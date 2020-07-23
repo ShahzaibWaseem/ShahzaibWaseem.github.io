@@ -132,6 +132,15 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ShahzaibWaseem"
+    - label: "Sitemap"
+      icon: "fab fa-fw fa-sitemap"
+      url: "https://shahzaibwaseem.github.io/sitemap/"
 
 # Reading Files
 include:
