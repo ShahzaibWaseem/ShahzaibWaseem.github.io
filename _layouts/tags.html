@@ -46,6 +46,8 @@ layout: archive
 {% assign previousTag = "" %}
 {% assign counter = 0 %}
 
+<ul>
+
 {% for currentTag in tags %}
   {% if previousTag == "" %}
     {% assign previousTag = currentTag %}
@@ -54,19 +56,18 @@ layout: archive
   {% if currentTag == previousTag %}
     {% assign counter = counter | plus: 1 %}
   {% else %}
-    {{ previousTag }} ({{ counter }})
+    <li>{{ previousTag }} ({{ counter }})</li>
     {% assign counter = 1 %}
   {% endif %}
 
-  {% comment %}last loop : flushing what's left to print{% endcomment %}
   {% if forloop.last %}
-    {{ currentTag }} ({{ counter }})
+    <li>{{ currentTag }} ({{ counter }})</li>
   {% endif %}
 
   {% assign previousTag = currentTag %}
 
 {% endfor %}
-
+</ul>
 <h1>Projects by Tag</h1>
 
 {% assign tags_max = 0 %}
