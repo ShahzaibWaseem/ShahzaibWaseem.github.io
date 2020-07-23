@@ -25,9 +25,6 @@ layout: archive
   {% endfor %}
 </ul>
 {% for i in (1..tags_max) reversed %}
-  <p>{{ i }}</p>
-{% endfor %}
-{% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
@@ -48,6 +45,7 @@ layout: archive
 {% assign tags_max = 0 %}
 {% assign tags = site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
+  <p>Tag Size: {{ tag.size }}</p>
   {% if tag.size > tags_max %}
     {% assign tags_max = tag.size %}
   {% endif %}
