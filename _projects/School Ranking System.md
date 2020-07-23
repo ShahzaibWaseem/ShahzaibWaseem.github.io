@@ -4,7 +4,7 @@ date:   2018-01-09
 tags: Python3 JavaScript SQLite Flask Jinja SQLAlchemy Flask'sLoginManager WTForms WerkzeugSecurity sha256_encryption HTML CSS Bootstrap
 ---
 
-**Language Used**: Python3, JavaScript, SQLite
+**Languages Used**: Python3, JavaScript, SQLite
 
 **Source Code**: [GitHub Link](https://github.com/ShahzaibWaseem/Project-Database)
 
@@ -38,4 +38,7 @@ $ pip3 install Flask
 $ export FLASK_APP=application.py
 $ flask run
 ```
-Find this amazing tutorial to get Flask up and running, with an Example, [here](https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba)
+
+Find this amazing article to get Flask up and running, with an Example, [here](https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba) or visit the [Flask Homepage](https://flask.palletsprojects.com/en/1.1.x/installation/) for more details to learn more about Flask and the other tools used in the project.
+
+You can fork the project on [GitHub](https://github.com/ShahzaibWaseem/Project-Database) to add more features to the project.
