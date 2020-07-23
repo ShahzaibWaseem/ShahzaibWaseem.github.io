@@ -2,7 +2,7 @@
 title: School Ranking System
 date:   2018-01-09
 tags: 
-  - Python3
+  - Python
   - JavaScript
   - Flask
   - Database
