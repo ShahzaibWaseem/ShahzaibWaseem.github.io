@@ -6,14 +6,13 @@ categories:
 tags:
   - C
   - Microcontroller
-  - projects
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 ---
 
-**Languages Used**: C/C++
+**Languages Used**: C
 
 **Source Code**: [GitHub Link](https://github.com/ShahzaibWaseem/Project-COAL)
 
