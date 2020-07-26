@@ -40,3 +40,42 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+
+<h1>Projects by Category</h1>
+
+{% assign project_posts = site.projects | tagged %}
+
+{% assign catoegories =  project_posts | map: 'catoegories' | join: ','  | split: ',' | uniq | sort %}
+
+<ul class="taxonomy__index">
+  {% for category in catoegories %}
+    <li>
+      <a href="#{{ category | slugify }}">
+        <strong>{{ category }}</strong>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% for category in catoegories %}
+  <section id="{{ category | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ category }}</h2>
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% for post in project_posts %}
+        {% if post.catoegories contains category %}
+        <div class="{{ include.type | default: "list" }}__item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          <h2 class="archive__item-title" itemprop="headline">
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+          </h2>
+          <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+        </article>
+        </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+      <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
