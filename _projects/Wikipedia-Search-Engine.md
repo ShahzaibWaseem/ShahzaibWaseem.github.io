@@ -16,7 +16,7 @@ toc_sticky: true
 **Source Code**: [GitHub Link](https://github.com/ShahzaibWaseem/Project-DSA)
 
 ## Goal
-The goal of this project was to make a search engine capable of forward indexing the contents of a particular file or article and search through the indexed files to make the process whole lot smooth. One of the goals of the project was to make the searcher should work in real time.
+The goal of this project was to make a search engine capable of forward indexing the contents of a particular file or article and search through the indexed files to make the process whole lot smooth. One of the goals of the project was to make the searcher should work in real time.**Backwards indexing was not in the scope of this project**.
 
 ## Tools & Libraries
 - Pickle
