@@ -53,7 +53,7 @@ The `searcher.py` script has a relatively simpler job and that was to ask the us
 <source src="https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv" type="video/ogg">
 </video>
 
-In case the video player does not work go to this [link](https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv)
+In case the video player does not work go to this [link](https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv).
 
 ## How to run the project
 ```python
