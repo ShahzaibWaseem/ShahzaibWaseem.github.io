@@ -49,8 +49,9 @@ The script file `indexer.py` does a lot of things, like shaving the xml tags so 
 The `searcher.py` script has a relatively simpler job and that was to ask the user for a query, which was broken using the same rules as was the xml file (see `importing.py`) and then the words were sought in the files created and the results were fetched and shown onto the screen. This process has to be seem less and should fetch results in real time, which it does. It returns when it could not find a single hit (the query "nothing" returns 0 results. see `searchTime.txt`) in 0.00004 seconds and a very frequent query like "wolf lion den" (56 hits) in 0.03 seconds. It is pretty evident that it takes less than a fraction of second which asserts the claim that it forward indexes the content of the .xml file and then searches for it. **Backwards indexing was not in the scope of this project**.
 
 ### Project Demo Video
-<iframe src="https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv" type="video/ogg">
-</iframe>
+<video width="320" height="240" controls>
+<source src="https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv" type="video/ogg">
+</video>
 
 ## How to run the project
 ```python
