@@ -46,10 +46,10 @@ layout: archive
 
 {% assign project_posts = site.projects | tagged %}
 
-{% assign catoegories =  project_posts | map: 'category' | join: ','  | split: ',' | uniq | sort %}
+{% assign categories =  project_posts | map: 'category' | join: ','  | split: ',' | uniq | sort %}
 
 <ul class="taxonomy__index">
-  {% for category in catoegories %}
+  {% for category in categories %}
     <li>
       <a href="#{{ category | slugify }}">
         <strong>{{ category }}</strong>
@@ -58,12 +58,12 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% for category in catoegories %}
+{% for category in categories %}
   <section id="{{ category | slugify | downcase }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ category }}</h2>
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% for post in project_posts %}
-        {% if post.catoegories contains category %}
+        {% if post.categories contains category %}
         <div class="{{ include.type | default: "list" }}__item">
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
           <h2 class="archive__item-title" itemprop="headline">
