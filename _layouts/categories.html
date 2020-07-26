@@ -46,7 +46,7 @@ layout: archive
 
 {% assign project_posts = site.projects | tagged %}
 
-{% assign catoegories =  project_posts | map: 'catoegories' | join: ','  | split: ',' | uniq | sort %}
+{% assign catoegories =  project_posts | map: 'category' | join: ','  | split: ',' | uniq | sort %}
 
 <ul class="taxonomy__index">
   {% for category in catoegories %}
