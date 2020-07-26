@@ -42,7 +42,6 @@ layout: archive
 
 <h1>Projects by Tag</h1>
 
-{% assign tags_max = 0 %}
 {% assign project_posts = site.projects | tagged %}
 
 {% assign tags =  project_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
