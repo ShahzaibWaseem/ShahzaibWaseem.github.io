@@ -2,7 +2,7 @@
 title: Garduino
 date: 2018-07-20
 categories:
-  - Projects
+  - Project
 tags:
   - C
   - Microcontroller
