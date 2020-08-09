@@ -1,6 +1,6 @@
 ---
 title: Communist Badger
-date: 2018-12-2016
+date: 2018-12-26
 header:
   image: /assets/images/ProjectAssets/CommunistBadger/CommunistBadgerLogo.png
 categories:
