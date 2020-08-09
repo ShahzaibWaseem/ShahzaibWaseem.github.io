@@ -38,21 +38,21 @@ CommunistBadger is a stock predictor tool which provides user with an insight of
 ## Results
 ### Google
 Here is a sentiment bar graph of "Google - GOOGL" versus Tweets data (20 Tweets):
-![GOOGL Sentiment Tweet](https://github.com/kjanjua26/CommunistBadger/blob/master/visualization/sentiment_results_tweets_Google.png)
+![GOOGL Sentiment Tweet](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_tweets_Google.png)
 
 Similarly, this is what News vs sentiment bar graph looks like for "Google - GOOGL" (20 News Articles):
-![GOOGL Sentiment News](https://github.com/kjanjua26/CommunistBadger/blob/master/visualization/sentiment_results_news_Google.png)
+![GOOGL Sentiment News](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_news_Google.png)
 
 ### Apple
 This is a fitted RBF Kernel Graph for "Apple - AAPL":
-![APPL RBF fit](https://github.com/kjanjua26/CommunistBadger/blob/master/visualization/Apple_stock_rbf.png)
+![APPL RBF fit](/assets/images/ProjectAssets/CommunistBadger/Apple_stock_rbf.png)
 
 Candlestick Graph for "Apple - APPL":
-![APPL Candlestick](https://github.com/kjanjua26/CommunistBadger/blob/master/visualization/candlestick_aapl.png)
+![APPL Candlestick](/assets/images/ProjectAssets/CommunistBadger/candlestick_aapl.png)
 
 ### EBay
 Candlestick Graph for "EBay":
-![EBAY Candlestick](https://github.com/kjanjua26/CommunistBadger/blob/master/visualization/stock_prediction_EBAY.png)
+![EBAY Candlestick](/assets/images/ProjectAssets/CommunistBadger/stock_prediction_EBAY.png)
 
 ### Interfaces
 #### Initial Interface
