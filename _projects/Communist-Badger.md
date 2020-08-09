@@ -112,4 +112,4 @@ Stock Prediction
 Others
 - [20 Python libraries you can’t live without](https://yasoob.me/2013/07/30/20-python-libraries-you-cant-live-without/)
 
-You can fork the project on [GitHub](https://github.com/ShahzaibWaseem/Project-DSA) to add more features to the project.
+You can fork the project on [GitHub](https://github.com/kjanjua26/CommunistBadger) to add more features to the project.
