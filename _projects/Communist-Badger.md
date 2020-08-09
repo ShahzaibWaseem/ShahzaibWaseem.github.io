@@ -35,25 +35,6 @@ The goal of this product, CommunistBadger, is to provide users with a platform w
 ## Description
 CommunistBadger is a stock predictor tool which provides user with an insight of how the stock market is doing and how it would do in the future. The product was trained on data sources from "News Articles", "Tweets" & "Stock Prices". The news articles were scraped and saved in csv file format and Twitter dataset was used csv files for multiple csv files are used for the different stock prices.
 
-## Results
-### Google
-Here is a sentiment bar graph of "Google - GOOGL" versus Tweets data (20 Tweets):
-![GOOGL Sentiment Tweet](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_tweets_Google.png)
-
-Similarly, this is what News vs sentiment bar graph looks like for "Google - GOOGL" (20 News Articles):
-![GOOGL Sentiment News](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_news_Google.png)
-
-### Apple
-This is a fitted RBF Kernel Graph for "Apple - AAPL":
-![APPL RBF fit](/assets/images/ProjectAssets/CommunistBadger/Apple_stock_rbf.png)
-
-Candlestick Graph for "Apple - APPL":
-![APPL Candlestick](/assets/images/ProjectAssets/CommunistBadger/candlestick_aapl.png)
-
-### EBay
-Candlestick Graph for "EBay":
-![EBAY Candlestick](/assets/images/ProjectAssets/CommunistBadger/stock_prediction_EBAY.png)
-
 ### Interfaces
 #### Initial Interface
 ![Initial Interface](/assets/images/ProjectAssets/CommunistBadger/InitialInterface.png)
@@ -90,6 +71,25 @@ Candlestick Graph for "EBay":
 
 #### Search Activity Diagram
 ![Search Activity Diagram](/assets/images/ProjectAssets/CommunistBadger/SearchActivityDiagram.png)
+
+## Results
+### Google
+Here is a sentiment bar graph of "Google - GOOGL" versus Tweets data (20 Tweets):
+![GOOGL Sentiment Tweet](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_tweets_Google.png)
+
+Similarly, this is what News vs sentiment bar graph looks like for "Google - GOOGL" (20 News Articles):
+![GOOGL Sentiment News](/assets/images/ProjectAssets/CommunistBadger/sentiment_results_news_Google.png)
+
+### Apple
+This is a fitted RBF Kernel Graph for "Apple - AAPL":
+![APPL RBF fit](/assets/images/ProjectAssets/CommunistBadger/Apple_stock_rbf.png)
+
+Candlestick Graph for "Apple - APPL":
+![APPL Candlestick](/assets/images/ProjectAssets/CommunistBadger/candlestick_aapl.png)
+
+### EBay
+Candlestick Graph for "EBay":
+![EBAY Candlestick](/assets/images/ProjectAssets/CommunistBadger/stock_prediction_EBAY.png)
 
 ## References
 To read Software Requirement Specification (SRS) Document about this product please click this [link](https://github.com/kjanjua26/CommunistBadger/blob/master/Documentation/Project%20Deliverable%201.pdf).
