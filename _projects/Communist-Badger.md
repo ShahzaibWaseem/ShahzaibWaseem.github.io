@@ -56,40 +56,40 @@ Candlestick Graph for "EBay":
 
 ### Interfaces
 #### Initial Interface
-![Initial Interface](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/InitialInterface.png)
+![Initial Interface](/assets/images/ProjectAssets/CommunistBadger/InitialInterface.png)
 
 #### Search "View Graph" Interface
-![Search "View Graph" Interface](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/SearchViewGraphInterface.png)
+![Search "View Graph" Interface](/assets/images/ProjectAssets/CommunistBadger/SearchViewGraphInterface.png)
 
 #### Market "Company Name" Interface
-![Market "Company Name" Interface](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/MarketCompanyNameInterface.png)
+![Market "Company Name" Interface](/assets/images/ProjectAssets/CommunistBadger/MarketCompanyNameInterface.png)
 
 #### Interface Levels
-![Interface Levels](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/InterfaceLevels.png)
+![Interface Levels](/assets/images/ProjectAssets/CommunistBadger/InterfaceLevels.png)
 
 ### Subsystem Diagrams
 #### Web Scraper Subsystem Diagram
-![Web Scraper Subsystem Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/WebscraperSubsystemDiagram.png)
+![Web Scraper Subsystem Diagram](/assets/images/ProjectAssets/CommunistBadger/WebscraperSubsystemDiagram.png)
 
 #### Model Training Subsystem Diagram
-![Model Training Subsystem Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/ModelTrainingSubsystemDiagram.png)
+![Model Training Subsystem Diagram](/assets/images/ProjectAssets/CommunistBadger/ModelTrainingSubsystemDiagram.png)
 
 ### Sequence Diagrams
 #### Application Launch Sequence Diagram
-![Application Launch Sequence Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/InitialSequenceDiagram.png)
+![Application Launch Sequence Diagram](/assets/images/ProjectAssets/CommunistBadger/InitialSequenceDiagram.png)
 
 #### Update Sequence Diagram
-![Update Sequence Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/UpdateSequenceDiagram.png)
+![Update Sequence Diagram](/assets/images/ProjectAssets/CommunistBadger/UpdateSequenceDiagram.png)
 
 #### Search Sequence Diagram
-![Search Sequence Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/SearchSequenceDiagram.png)
+![Search Sequence Diagram](/assets/images/ProjectAssets/CommunistBadger/SearchSequenceDiagram.png)
 
 ### Activity Diagrams
 #### Update Activity Diagram
-![Update Activity Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/UpdateActivityDiagram.png)
+![Update Activity Diagram](/assets/images/ProjectAssets/CommunistBadger/UpdateActivityDiagram.png)
 
 #### Search Activity Diagram
-![Search Activity Diagram](https://github.com/ShahzaibWaseem/ShahzaibWaseem.github.io/blob/master/assets/images/ProjectAssets/CommunistBadger/SearchActivityDiagram.png)
+![Search Activity Diagram](/assets/images/ProjectAssets/CommunistBadger/SearchActivityDiagram.png)
 
 ## References
 To read Software Requirement Specification (SRS) Document about this product please click this [link](https://github.com/kjanjua26/CommunistBadger/blob/master/Documentation/Project%20Deliverable%201.pdf).
