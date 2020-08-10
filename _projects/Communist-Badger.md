@@ -2,7 +2,7 @@
 title: Communist Badger
 date: 2018-12-26
 header:
-  image: /assets/images/ProjectAssets/CommunistBadger/CommunistBadgerLogo.png
+  image: /assets/images/ProjectAssets/CommunistBadger/CommunistBadgerLogo.jpg
 categories:
   - Project
 tags:
