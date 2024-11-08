@@ -1,14 +1,7 @@
 ---
 title: MobiSpectral: Hyperspectral Imaging on Mobile Devices
 date: 2023-10-06
-categories:
-  - Project
-tags:
-  - Python
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "fas fa-file-alt"
-toc_sticky: true
+tags: Python
 ---
 
 # ACM MobiCom 2023, Madrid, Spain
