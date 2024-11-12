@@ -1,34 +1,36 @@
 ---
 layout: archive
 ---
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 
 <h1 class="archive-single">{{ site.author.name }}</h1>
 
 <section class="page__content" itemprop="text">
-{{ site.author.about }}
+	{{ site.author.about }}
 
-{% if author.avatar %}
-<div class="author__avatar">
-	{% if author.avatar contains "://" %}
-		{% assign author_src = author.avatar %}
-	{% else %}
-		{% assign author_src = author.avatar | relative_url %}
-	{% endif %}
+	{% if author.avatar %}
+		<div class="author__avatar">
+			{% if author.avatar contains "://" %}
+				{% assign author_src = author.avatar %}
+			{% else %}
+				{% assign author_src = author.avatar | relative_url %}
+			{% endif %}
 
-	{% if author.home %}
-		{% if author.home contains "://" %}
-			{% assign author_link = author.home %}
-		{% else %}
-			{% assign author_link = author.home | relative_url %}
-		{% endif %}
-		<a href="{{ author_link }}">
-			<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-		</a>
-	{% else %}
-		<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+			{% if author.home %}
+				{% if author.home contains "://" %}
+					{% assign author_link = author.home %}
+				{% else %}
+					{% assign author_link = author.home | relative_url %}
+				{% endif %}
+				<a href="{{ author_link }}">
+					<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+				</a>
+			{% else %}
+				<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+			{% endif %}
+		</div>
 	{% endif %}
-</div>
-{% endif %}
 </section>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Selected Papers" }}</h3>
