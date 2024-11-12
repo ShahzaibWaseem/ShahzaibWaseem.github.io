@@ -50,7 +50,7 @@ The `searcher.py` script has a relatively simpler job and that was to ask the us
 
 ### Project Demo Video
 <video width="420" height="300" controls>
-<source src="https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv" type="video/ogg">
+<source src="/assets/images/ProjectAssets/WikipediaSearchEngine/demo.ogv" type="video/ogg">
 </video>
 
 In case the video player does not work go to this [link](https://github.com/ShahzaibWaseem/Project-DSA/blob/master/demo.ogv).
