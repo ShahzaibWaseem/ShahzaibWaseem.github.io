@@ -165,6 +165,7 @@
 .page__share + .pagination,
 .page__comments + .pagination {
   margin-top: 2em;
+  text-align: justify;
   padding-top: 2em;
   border-top: 1px solid $border-color;
 }
