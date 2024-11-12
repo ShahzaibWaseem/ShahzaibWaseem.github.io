@@ -11,28 +11,26 @@ layout: archive
 </section>
 
 {% if author.avatar %}
-	<aside class="sidebar__right">
-		<div class="author__avatar">
-			{% if author.avatar contains "://" %}
-				{% assign author_src = author.avatar %}
+	<div class="author__avatar">
+		{% if author.avatar contains "://" %}
+			{% assign author_src = author.avatar %}
+		{% else %}
+			{% assign author_src = author.avatar | relative_url %}
+		{% endif %}
+
+		{% if author.home %}
+			{% if author.home contains "://" %}
+				{% assign author_link = author.home %}
 			{% else %}
-				{% assign author_src = author.avatar | relative_url %}
+				{% assign author_link = author.home | relative_url %}
 			{% endif %}
-	
-			{% if author.home %}
-				{% if author.home contains "://" %}
-					{% assign author_link = author.home %}
-				{% else %}
-					{% assign author_link = author.home | relative_url %}
-				{% endif %}
-				<a href="{{ author_link }}">
-					<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-				</a>
-			{% else %}
+			<a href="{{ author_link }}">
 				<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-			{% endif %}
-		</div>
-	</aside>
+			</a>
+		{% else %}
+			<img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+		{% endif %}
+	</div>
 {% endif %}
 
 
