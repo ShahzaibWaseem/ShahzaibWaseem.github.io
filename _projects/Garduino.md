@@ -40,7 +40,7 @@ The Goal of this project was to provide a cost efficient solution, to automate a
 This project was built using an Arduino Microcontroller to automate the Gradening Process, with the usage of Real Time Clock (RTC), to monitor when to water the plants and how long to water, Soil Moisture Sensor, another parameter which tells how much to water, Light Dependent Resistor (LDR), to tell at what time of the day to water in case the RTC fails. Input sensors were logged on the computer, temporarily, using the Arduino IDE, The System can be connected to services like Blynk and many others.
 
 ### Schematic Diagram
-![Garduino Schematic Diagram](assets/images/ProjectAssets/Garduino/wiringDiagram.png)
+![Garduino Schematic Diagram](/assets/images/ProjectAssets/Garduino/wiringDiagram.png)
 
 ## References
 The Schematic image was borrowed from this [GitHub.com/gradyh/GradyHillhouseGarduino repository](https://github.com/gradyh/GradyHillhouseGarduino), although this is not the exact schematic used in my project.
