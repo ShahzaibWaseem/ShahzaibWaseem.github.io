@@ -17,7 +17,7 @@ Hyperspectral imaging systems capture information in multiple wavelength bands a
 ![MobiSpectral Overview](/assets/images/ProjectAssets/MobiSpectral/mobispectralOverview.png)
 
 ## Android Application Demo
-<video width="420" height="300" controls>
+<video width="405" height="720" controls>
 	<source src="/assets/images/ProjectAssets/MobiSpectral/mobispectralApp.mp4" type="video/mp4">
 </video>
 
