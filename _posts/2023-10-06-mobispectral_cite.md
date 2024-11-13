@@ -12,10 +12,12 @@ Hyperspectral imaging systems capture information in multiple wavelength bands a
 ## Overview
 ![MobiSpectral Overview](/assets/images/ProjectAssets/MobiSpectral/mobispectralOverview.png)
 
-# Android Application Demo
+## Android Application Demo
 <video width="420" height="300" controls>
 	<source src="/assets/images/ProjectAssets/MobiSpectral/MobiSpectralApp(online).mp4" type="video/mp4">
 </video>
+
+## Paper Supplementary Material
 
 ACM Mobile Computing and Networking, 2023.
 
