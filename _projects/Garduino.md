@@ -8,7 +8,7 @@ tags:
   - Microcontroller
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "th-list"
 toc_sticky: true
 ---
 
