@@ -1,7 +1,9 @@
 ---
 title: "MobiSpectral: Hyperspectral Imaging on Mobile Devices"
 date: "2023-10-06"
-tags: "Python"
+tags:
+  - Python
+  - Research
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "th-list"
