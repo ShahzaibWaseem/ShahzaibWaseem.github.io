@@ -1,5 +1,5 @@
 ---
-title: Communist Badger
+title: CommBadger
 date: 2018-12-26
 header:
   image: /assets/images/ProjectAssets/CommBadger/CommBadgerLogo.jpg
