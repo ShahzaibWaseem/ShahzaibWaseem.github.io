@@ -36,7 +36,7 @@ There are some technical aspects of RipeTrack which are not present in the paper
 ### Spectral Signatures
 Spectral signatures are the (normalized) pixel values of each wavelength band at a particular pixel in the hypercube. Signatures are what make hyperspectral imaging very powerful as each material has a unique signature (given the hyperspectral range is large), which makes the problem of classification a material classification or classification based on the chemical changes rather than in the traditional classification.
 
-### Extracting spectral signatures (Android)
+### Extracting signatures (Android)
 PyTorch on Android is a very stripped down version of the desktop version, as Android does not allow to deal with 3D objects natively. Since this is the case the hyperspectral cubes are represented in a 1D array in Android even in the PyTorch library. This raises a problem when we need to get spectral signatures on Android to perform spectral analysis. The following example is to explain how we solve this problem. In the animation (*gif*) below, there are 4 bands: Red, Green, Blue and Gray. The width and height of the image are 4 pixels each making the shape 4 * 4 * 4. Each pixel shows its XY coordinate value in the matrix and the color represents the band number. There is a running "control" of the code on the left hand side and the top of the image shows the current status of the signature array, and the bottom of the animation shows the 1D representation of the hypercube data in native Android data structures.
 
 ![Signature Explanation](/assets/images/ProjectAssets/RipeTrack/SignatureExplaination.gif)
