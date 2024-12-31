@@ -54,10 +54,14 @@ bitmapsWidth * row + col
 ```
 
 ## Android Application
-
 The interface of the android application is shown in the figure below. This shows the the application has a feature to predict single and multiple fruits as well as, signature analysis can be performed on the hypercubes.
 
 ![RipeTrack Android](/assets/images/ProjectAssets/RipeTrack/ripetrackAndroid.png)
+
+### Demo 
+<video width="405" height="720" controls>
+	<source src="/assets/images/ProjectAssets/RipeTrack/RipeTrackAndroidDemo.mp4" type="video/mp4">
+</video>
 
 ## Paper Supplementary Material
 
