@@ -26,7 +26,7 @@ Hyperspectral imaging systems capture information in multiple wavelength bands a
 ## Paper Supplementary Material
 ACM Mobile Computing and Networking, 2023.
 
-| [[Paper]](/assets/images/ProjectAssets/MobiSpectral/mobiCom23_MobiSpectral.pdf) | [[Code]](https://github.com/mobispectral/mobicom23_mobispectral) | [[Summary]](/projects/MobiSpectral/) | [[Android]](https://github.com/ShahzaibWaseem/MobiSpectral-Android) | [[Dataset]](https://www.frdr-dfdr.ca/repo/dataset/cf34da8b-f794-47c5-b114-88ecdd112a14) | [[BibTex]](/assets/images/ProjectAssets/MobiSpectral/mobispectral.bib) |
+| [[Paper]](/assets/images/ProjectAssets/MobiSpectral/mobiCom23_MobiSpectral.pdf) | [[Summary]](/projects/MobiSpectral/) | [[Code]](https://github.com/mobispectral/mobicom23_mobispectral) | [[Android]](https://github.com/ShahzaibWaseem/MobiSpectral-Android) | [[Dataset]](https://www.frdr-dfdr.ca/repo/dataset/cf34da8b-f794-47c5-b114-88ecdd112a14) | [[BibTex]](/assets/images/ProjectAssets/MobiSpectral/mobispectral.bib) |
 
 ## Citation
 ```
