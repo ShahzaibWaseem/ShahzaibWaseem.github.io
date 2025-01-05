@@ -21,7 +21,7 @@ Above is the overview of RipeTrack. There are two main components to RipeTrack:
 - Spatio-Spectral Classification
 
 ![RipeTrack Hyperspectral Reconstruction](/assets/images/ProjectAssets/RipeTrack/reconstructionArchitecture.png)
-**Hyperspectral Reconstruction** model, which is designed using vision Transformers, is responsible for utilizing the input RGB and NIR image set to spectrally upscale it to output a whole hyperspectral cube. Compared to prior works, however, our model considers the NIR band as an extra input, adds new loss functions to enhance accuracy, improves robustness to diverse phones and illuminations, and significantly reduces memory requirements and training and inference times; all are critical factors for smartphones.
+**Hyperspectral Reconstruction** model, which is designed using vision transformers, is responsible for utilizing the input RGB and NIR image set to spectrally upscale it to output a whole hyperspectral cube. Prior works use hyperspectral reconstruction to get upscaled hyperspectral bands, but this information is not sufficient in a lot of applications. This is because if no information is present regarding the internal chemical changes, the model will start hallucinating details. Compared to prior works, our model considers the NIR band as an extra input, adds new loss functions to enhance accuracy, improves robustness to diverse phones and illuminations, and significantly reduces memory requirements and training and inference times; all are critical factors for smartphones.
 
 ![RipeTrack Spatio-Spectral Classification](/assets/images/ProjectAssets/RipeTrack/classifierArchitecture.png)
 **Spatio-Spectral Classification** model classifies the hypercubes it receives into easy to understand labels for Ripeness level (*Unripe*, *Ripe*, *Expired*) and Remaining lifetime (*10%*, *20%*, ..., *100%*). The Spatio-Spectral classification model considers both the spatial (X and Y axis in Cartesian space) and spectral (Z axis in Cartesian space) characteristics of the input hyperspectral bands. This is crucial for identifying the subtle differences among a fruit's spectral signatures at different points in its lifetime.
@@ -31,7 +31,7 @@ The deep learning models built are very robust and are built to be used in the r
 
 For more details about any of the modules, read our paper.
 
-There are some technical aspects of MobiSpectral that are not present in the paper, like how to get the spectral signatures of points in the hypercubes on Android.
+There are some technical aspects of RipeTrack that are not present in the paper, like how to get the spectral signatures of points in the hypercubes on Android.
 
 ### Spectral Signatures
 Spectral signatures are the (normalized) pixel values of each wavelength band at a particular pixel in the hypercube. Signatures are what make hyperspectral imaging very powerful as each material has a unique signature (given the hyperspectral range is large), which makes the problem of classification a material classification or classification based on the chemical changes rather than in the traditional classification.
