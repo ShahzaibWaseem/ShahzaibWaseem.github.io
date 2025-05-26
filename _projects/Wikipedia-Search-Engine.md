@@ -5,6 +5,7 @@ categories:
   - Project
 tags: 
   - Python
+  - XML
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "th-list"
