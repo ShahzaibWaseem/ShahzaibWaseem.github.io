@@ -6,6 +6,7 @@ categories:
 tags:
   - C
   - Microcontroller
+  - Arduino
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "th-list"

@@ -7,6 +7,9 @@ categories:
   - Project
 tags:
   - Python
+  - Database
+  - MongoDB
+  - Machine Learning
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "th-list"
@@ -25,7 +28,7 @@ The goal of this product, CommBadger, is to provide users with a platform where 
 - MongoDB
 - Tensorflow
 - Python tkinter (GUI)
-- Numpy
+- NumPy
 - Matplotlib
 - Fuzzy Testing
 - Sentiment Analysis
