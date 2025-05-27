@@ -275,9 +275,9 @@ compress_html:
 
 # Collections
 collections:
+  sort_order: reverse
   projects:
     output: true
-    sort_order: reverse
     permalink: /:collection/:path/
 
 # Defaults
