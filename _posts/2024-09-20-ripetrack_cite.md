@@ -23,7 +23,7 @@ Several studies showed that a significant fraction of fresh fruits are discarded
 
 ## Paper Supplementary Material
 
-IEEE Transactions on Mobile Computing, 2024.
+IEEE Transactions on Mobile Computing, 2026.
 
 | [[Paper]](https://ieeexplore.ieee.org/document/11129869) | [[Code]](https://github.com/ShahzaibWaseem/RipeTrack) | [[Android]](https://github.com/ShahzaibWaseem/RipeTrack-Android) | [[Dataset]](https://github.com/ShahzaibWaseem/RipeTrack?tab=readme-ov-file#datasets) | [[BibTex]](/assets/images/ProjectAssets/RipeTrack/ripetrack.bib) |
 
