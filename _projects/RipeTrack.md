@@ -1,6 +1,6 @@
 ---
 title: "RipeTrack: Assessing Fruit Ripeness using Smartphones"
-date: "2024-09-20"
+date: "2025-08-19"
 tags:
   - Python
   - Research
