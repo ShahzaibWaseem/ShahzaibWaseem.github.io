@@ -47,4 +47,6 @@ The architecture consists of three distinct AutoEncoder (AE) blocks:
 - *Optimization*: Backpropagation through the stacked layers, with logic built-in to isolate gradients if training is done modularly per block.
 
 ## References
+Stacked Denoising AutoEncoder for PyTorch is based on the paper [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](https://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf)
+
 You can fork the project on [GitHub](https://github.com/ShahzaibWaseem/StackedAutoEncoder) to add more features to the project.
