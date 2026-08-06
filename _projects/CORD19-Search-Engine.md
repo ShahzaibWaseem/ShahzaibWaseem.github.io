@@ -5,8 +5,10 @@ categories:
   - Project
 tags: 
   - Python
-  - NLTK/SpaCy
-  - TensorFlow/PyTorch
+  - NLTK
+  - SpaCy
+  - TensorFlow
+  - PyTorch
   - Scikit-Learn
 toc: true
 toc_label: "Table of Contents"
@@ -14,7 +16,7 @@ toc_icon: "th-list"
 toc_sticky: true
 ---
 
-**Languages & Tools Used**: Python, NLTK/SpaCy, TensorFlow/PyTorch, Scikit-Learn
+**Languages & Tools Used**: Python, NLTK, SpaCy, TensorFlow, PyTorch, Scikit-Learn
 
 **Focus Area**: Text Classification / Sentiment Analysis (Update with your specific focus)
 
