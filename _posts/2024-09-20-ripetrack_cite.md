@@ -4,6 +4,10 @@ date: "2024-09-20"
 tags:
   - Python
   - Research
+  - Hyperspectral Imaging
+  - Computer Vision
+  - Machine Learning
+  - Android
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "th-list"
