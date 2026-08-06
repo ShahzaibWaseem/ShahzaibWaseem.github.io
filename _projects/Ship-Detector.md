@@ -42,10 +42,10 @@ The processed images (along with the raw control group) are used to train three 
 
 ## Results and Performance
 The core finding of this project is the measurable difference in the Loss Function when applying Digital Image Processing (DIP).
-![Loss and Accuracy (without DIP)](/assets/images/ProjectAssets/ShipDetector/customModelwithoutDIP.png)
 - *Without DIP*: The custom model struggles with background noise, leading to higher loss and slower convergence.
-![Loss and Accuracy (with DIP)](/assets/images/ProjectAssets/ShipDetector/customModelwithDIP.png)
+![Loss and Accuracy (without DIP)](/assets/images/ProjectAssets/ShipDetector/customModelwithoutDIP.png)
 - *With DIP*: The application of our image processing pipeline yields a significantly smoother loss curve, faster convergence, and better overall ship detection accuracy.
+![Loss and Accuracy (with DIP)](/assets/images/ProjectAssets/ShipDetector/customModelwithDIP.png)
 
 ## References
 You can fork the project on [GitHub](https://github.com/ShahzaibWaseem/Project-AI) to add more features to the project.
