@@ -71,7 +71,7 @@ The interface of the Android application is shown in the figure below. This appl
 
 ACM Mobile Computing and Networking, 2023.
 
-| [[Paper]](/assets/images/ProjectAssets/MobiSpectral/mobiCom23_MobiSpectral.pdf) | [[Code]](https://github.com/mobispectral/mobicom23_mobispectral) | [[Android]](https://github.com/ShahzaibWaseem/MobiSpectral-Android) | [[Dataset]](https://www.frdr-dfdr.ca/repo/dataset/cf34da8b-f794-47c5-b114-88ecdd112a14) | [[BibTex]](/assets/images/ProjectAssets/MobiSpectral/mobispectral.bib) |
+| [[Paper]](/assets/images/ProjectAssets/MobiSpectral/mobiCom23_MobiSpectral.pdf) | [[ACM]](https://dl.acm.org/doi/10.1145/3570361.3613296) | [[Code]](https://github.com/mobispectral/mobicom23_mobispectral) | [[Android]](https://github.com/ShahzaibWaseem/MobiSpectral-Android) | [[Dataset]](https://www.frdr-dfdr.ca/repo/dataset/cf34da8b-f794-47c5-b114-88ecdd112a14) | [[BibTex]](/assets/images/ProjectAssets/MobiSpectral/mobispectral.bib) |
 
 ## Citation
 ```
