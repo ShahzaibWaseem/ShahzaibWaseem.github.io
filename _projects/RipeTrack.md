@@ -71,7 +71,7 @@ The interface of the Android application is shown in the figure below. This show
 
 IEEE Transactions on Mobile Computing, 2025.
 
-| [[Paper]](/assets/images/ProjectAssets/RipeTrack/tmc25_RipeTrack.pdf) | [[Code]](https://github.com/ShahzaibWaseem/RipeTrack) | [[Android]](https://github.com/ShahzaibWaseem/RipeTrack-Android) | [[Dataset]](https://github.com/ShahzaibWaseem/RipeTrack?tab=readme-ov-file#datasets) | [[BibTex]](/assets/images/ProjectAssets/RipeTrack/ripetrack.bib) | [[Thesis]](https://summit.sfu.ca/item/38514) |
+| [[Paper]](/assets/images/ProjectAssets/RipeTrack/tmc25_RipeTrack.pdf) | [[IEEE]](https://ieeexplore.ieee.org/document/11129869/) | [[Code]](https://github.com/ShahzaibWaseem/RipeTrack) | [[Android]](https://github.com/ShahzaibWaseem/RipeTrack-Android) | [[Dataset]](https://github.com/ShahzaibWaseem/RipeTrack?tab=readme-ov-file#datasets) | [[BibTex]](/assets/images/ProjectAssets/RipeTrack/ripetrack.bib) | [[Thesis]](https://summit.sfu.ca/item/38514) |
 
 ## Citation
 ```

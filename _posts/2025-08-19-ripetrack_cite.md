@@ -29,7 +29,7 @@ Several studies showed that a significant fraction of fresh fruits are discarded
 
 IEEE Transactions on Mobile Computing, 2025.
 
-| [[Paper]](/assets/images/ProjectAssets/RipeTrack/tmc25_RipeTrack.pdf) | [[Paper Details]](/projects/RipeTrack/) | [[Code]](https://github.com/ShahzaibWaseem/RipeTrack) | [[Android]](https://github.com/ShahzaibWaseem/RipeTrack-Android) | [[Dataset]](https://github.com/ShahzaibWaseem/RipeTrack?tab=readme-ov-file#datasets) | [[BibTex]](/assets/images/ProjectAssets/RipeTrack/ripetrack.bib) | [[Thesis]](https://summit.sfu.ca/item/38514) |
+| [[Paper]](/assets/images/ProjectAssets/RipeTrack/tmc25_RipeTrack.pdf) | [[IEEE]](https://ieeexplore.ieee.org/document/11129869/) | [[Paper Details]](/projects/RipeTrack/) | [[Code]](https://github.com/ShahzaibWaseem/RipeTrack) | [[Android]](https://github.com/ShahzaibWaseem/RipeTrack-Android) | [[Dataset]](https://github.com/ShahzaibWaseem/RipeTrack?tab=readme-ov-file#datasets) | [[BibTex]](/assets/images/ProjectAssets/RipeTrack/ripetrack.bib) | [[Thesis]](https://summit.sfu.ca/item/38514) |
 
 ## Citation
 ```
