@@ -47,8 +47,8 @@ In standard computer vision pipelines, images are forcefully resized or cropped 
 By dynamically calculating the pooling window size and stride based on the incoming feature map's dimensions, the SPP layer creates a fixed-length representation. If you configure the layer to output $16$, $4$, and $1$ bins across $256$ channels, the fully connected layer will always receive exactly $(16 + 4 + 1) \times 256 = 5376$ features.
 
 ## References
-Spatial pyramid pooling layers for keras, based on the paper ![Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729).
+Spatial pyramid pooling layers for keras, based on the paper [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729).
 
-I used this starter code, which is in tensorflow 1.0, ![Author GitHub](https://github.com/yhenon/keras-spp). This code is for tensorflow 2.0.
+I used this starter code, which is in tensorflow 1.0, [Author GitHub](https://github.com/yhenon/keras-spp). This code is for tensorflow 2.0.
 
 You can fork the project on [GitHub](https://github.com/ShahzaibWaseem/SpatialPyramidPooling_tf2) to add more features to the project.
